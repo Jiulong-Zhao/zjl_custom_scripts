@@ -36,11 +36,13 @@ python batch_select_contigs.py \
 ```
 
 ## 🧩 参数说明 | Arguments
-参数 / Argument	必须 / Required	说明 / Description
--i, --input_dir	是 / Yes	要递归搜索的根目录
--l, --length	是 / Yes	保留contig的最小长度（如 2000）
--o, --output_dir	是 / Yes	输出FASTA文件的保存目录
--k, --keyword	否 / No	精确匹配的目标文件名（默认：final.contigs.fa）
+| 参数 / Argument      | 必须 / Required | 说明 / Description                  |
+| ------------------ | ------------- | --------------------------------- |
+| `-i, --input_dir`  | 是 / Yes       | 要递归搜索的根目录                         |
+| `-l, --length`     | 是 / Yes       | 保留contig的最小长度（如 2000）             |
+| `-o, --output_dir` | 是 / Yes       | 输出FASTA文件的保存目录                    |
+| `-k, --keyword`    | 否 / No        | 精确匹配的目标文件名（默认：`final.contigs.fa`） |
+
 
 ## 🧪 示例 | Example
 ```bash
